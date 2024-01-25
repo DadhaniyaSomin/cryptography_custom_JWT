@@ -1,0 +1,11 @@
+Server
+"Okay, let me check if your credentials are valid..."
+"Your credentials look good. I am going to create a JWT, sign it with my private key, and give it to you now."
+"I know we just talked, but I still have to verify the JWT I just issued you. Let me use my public key to verify it."
+"Looks good! Here is your profile page."
+
+
+Client (user)
+"Hi server, I want to log in to your application. Here is my username and password.”
+"Thanks for the JWT! I will keep this stored in my browser's local storage and attach it to all of my requests."
+"Speaking of... Can I view my profile (https://www.somesite.com/profile)? My JWT is attached to this request."
